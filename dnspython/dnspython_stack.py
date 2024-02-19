@@ -45,7 +45,7 @@ class DnspythonStack(Stack):
                 _lambda.Runtime.PYTHON_3_11,
                 _lambda.Runtime.PYTHON_3_12
             ],
-            description = 'dnspython 2.6.0 (https://github.com/rthalley/dnspython)',
+            description = 'dnspython 2.6.1 (https://github.com/rthalley/dnspython)',
             layer_version_name = 'dnspython',
             license = 'ISC License',
             removal_policy = RemovalPolicy.DESTROY
